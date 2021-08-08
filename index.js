@@ -33,7 +33,7 @@ function recordBroken(current,...highScore)
        console.log("Woah !! you have scored higher so for updating score share SS");
       
     }
-    else if(highScores[i].score > current)
+    else 
     {
       console.log(chalk.yellow("Sorry ! Try Again"));
     }
